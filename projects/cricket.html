@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cricket Game</title>
+  <style>
+    body{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1> Bat Ball Stump Game</h1>
+
+  <button onclick="
+  let randomNumber = Math.random()*3;
+  let computerchoice;
+  if(randomNumber>0 && randomNumber<=1){
+    computerchoice='Bat';
+  }
+  else if(randomNumber>1 && randomNumber<=2){
+     computerchoice='Ball';
+  }
+  else{
+     computerchoice='Stump';
+  }
+
+    var resultMsg;
+  if(computerchoice==='Ball'){
+    resultMsg='User won.';
+  }
+  else if(computerchoice==='Stump'){
+    resultMsg='Computer won.';
+  }
+  else {
+  resultMsg='Match tie.';
+  }
+  
+  alert( ` You have chosen Bat. Computer choice is ${computerchoice} and ${resultMsg} `);
+  " 
+  >Bat</button>
+
+  <button onclick="
+  let randomNumber=Math.random()*3;
+  let computerchoice;
+  if(randomNumber>0 && randomNumber<=1){
+    computerchoice='Bat';
+  }
+  else if(randomNumber>1 && randomNumber<=2){
+    computerchoice='Ball';
+  }
+  else{
+    computerchoice='Stump';
+  }
+
+  let resultMsg;
+  if(computerchoice==='Bat'){
+    resultMsg='Computer Won.';
+  }
+  else if(computerchoice==='Ball'){
+    resultMsg='Match tie.';
+  }
+  else{
+    resultMsg='User Won.';
+  }
+
+  alert(`You have chosen Ball. Computer choice is ${computerchoice} and ${resultMsg}`);
+  
+  " >Ball</button>
+
+  <button onclick="
+  let randomNumber=Math.random()*3;
+  let computerchoice;
+  if(randomNumber>0 && randomNumber<=1){
+  computerchoice='Bat';
+  }
+  else if(randomNumber>1 && randomNumber<=2){
+    computerchoice='Ball';
+  }
+  else{
+    computerchoice='Stump';
+  }
+
+  let resultMsg;
+  if(computerchoice==='Bat'){
+    resultMsg='User Won.';
+  }
+  else if(computerchoice==='Ball'){
+    resultMsg='Computer Won.';
+  }
+  else{
+    resultMsg='Match Ties.';
+  }
+  alert( `You have chosen Stump. Computer choice is ${computerchoice} and ${resultMsg}`);
+
+  ">Stump</button>
+</body>
+</html>
+
