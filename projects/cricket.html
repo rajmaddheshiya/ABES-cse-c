@@ -12,8 +12,9 @@
   <h1> Bat Ball Stump Game</h1>
 
   <button onclick="
-  generatecomputerchoice();
-    var resultMsg;
+  let computerchoice = generatecomputerchoice();
+    let resultMsg;
+
   if(computerchoice==='Ball'){
     resultMsg='User won.';
   }
@@ -27,7 +28,7 @@
   " >Bat</button>
 
   <button onclick="
-  generatecomputerchoice();
+   computerchoice=generatecomputerchoice();
   if(computerchoice==='Bat'){
     resultMsg='Computer Won.';
   }
@@ -37,12 +38,11 @@
   else{
     resultMsg='User Won.';
   }
-
   alert(`You have chosen Ball. Computer choice is ${computerchoice} and ${resultMsg}`);
    " >Ball</button>
 
   <button onclick="
-  generatecomputerchoice();
+   computerchoice=generatecomputerchoice();
   if(computerchoice==='Bat'){
     resultMsg='User Won.';
   }
@@ -50,25 +50,25 @@
     resultMsg='Computer Won.';
   }
   else{
-    resultMsg='Match Ties.';
+    resultMsg='Match Tie.';
   }
   alert( `You have chosen Stump. Computer choice is ${computerchoice} and ${resultMsg}`);
 ">Stump</button>
 
 <!-- here the generatecomputerchoice is converted into a function  -->
 <script>
-  let computerchoice;
   function generatecomputerchoice(){
  let randomNumber = Math.random()*3;
   if(randomNumber>0 && randomNumber<=1){
-    computerchoice='Bat';
+    return 'Bat';
   }
   else if(randomNumber>1 && randomNumber<=2){
-     computerchoice='Ball';
+     return 'Ball';
   }
   else{
-     computerchoice='Stump';
+     return 'Stump';
   }
+  return choice;
   }
 </script>
 </body>

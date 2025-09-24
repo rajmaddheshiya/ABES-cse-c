@@ -6,18 +6,46 @@
 </head>
 <body>
   <script>
-    let age=21;
+    // let age=21;
 
-    function printAge() {
-      console.log(`Your age is ${age}`);
-    } 
+    // function printAge() {
+    //   console.log(`Your age is ${age}`);
+    // } 
 
-    printAge();
-    age=65;
-    printAge();
-    age=34;
-    printAge();
-    
+    // printAge();
+    // age=65;
+    // printAge();
+    // age=34;
+    // printAge();
+
+
+
+    // function generaterandommove(){
+    //   let random=Math.random();
+    //   let randommove=random*3;
+    //   return randommove;
+    // }
+
+    // console.log(generaterandommove());
+    // console.log(generaterandommove());
+    // console.log(generaterandommove());
+    // console.log(generaterandommove());
+    // console.log(generaterandommove());
+
+    function determinedriverstatus(){ 
+      let age;
+      if(age === undefined){
+        return 'Please enter your age';
+      }
+      if(age>18){
+        return 'you can drive';
+      }
+      else{
+        return `you cannot drive`;
+      }
+    }
+
+    console.log(determinedriverstatus());
   </script>
 </body>
 </html>
