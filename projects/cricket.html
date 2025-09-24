@@ -13,47 +13,24 @@
 
   <button onclick="
   let computerchoice = generatecomputerchoice();
-    let resultMsg;
-
-  if(computerchoice==='Ball'){
-    resultMsg='User won.';
-  }
-  else if(computerchoice==='Stump'){
-    resultMsg='Computer won.';
-  }
-  else {
-  resultMsg='Match tie.';
-  }
-  alert( ` You have chosen Bat. Computer choice is ${computerchoice} and ${resultMsg} `);
+  let resultMsg = getresult('Bat',computerchoice);
+   showresult('Bat',computerchoice,resultMsg);
   " >Bat</button>
 
-  <button onclick="
-   computerchoice=generatecomputerchoice();
-  if(computerchoice==='Bat'){
-    resultMsg='Computer Won.';
-  }
-  else if(computerchoice==='Ball'){
-    resultMsg='Match tie.';
-  }
-  else{
-    resultMsg='User Won.';
-  }
-  alert(`You have chosen Ball. Computer choice is ${computerchoice} and ${resultMsg}`);
-   " >Ball</button>
 
   <button onclick="
-   computerchoice=generatecomputerchoice();
-  if(computerchoice==='Bat'){
-    resultMsg='User Won.';
-  }
-  else if(computerchoice==='Ball'){
-    resultMsg='Computer Won.';
-  }
-  else{
-    resultMsg='Match Tie.';
-  }
-  alert( `You have chosen Stump. Computer choice is ${computerchoice} and ${resultMsg}`);
+    computerchoice=generatecomputerchoice();
+    resultMsg = getresult('Ball',computerchoice);
+    showresult('Ball',computerchoice,resultMsg);
+   " >Ball</button>
+
+
+  <button onclick="
+    computerchoice=generatecomputerchoice();
+    resultMsg = getresult('Stump',computerchoice);
+    showresult('stump',computerchoice,resultMsg);
 ">Stump</button>
+
 
 <!-- here the generatecomputerchoice is converted into a function  -->
 <script>
@@ -70,6 +47,48 @@
   }
   return choice;
   }
+
+function getresult(usermove,computermove){
+  if(usermove==='Bat'){
+    if(computermove === 'Ball'){
+    return 'User won.';
+    }
+    else if(computermove === 'Stump'){
+    return 'Computer won.';
+    }
+    else {
+    return 'Match tie.';
+    }
+  }
+  else if(usermove==='Ball'){
+    if(computermove==='Bat'){
+      return 'Computer Won.';
+    }
+    else if(computermove==='Ball'){
+      return 'Match tie.';
+    }
+    else{
+      return 'User Won.';
+    }
+  }
+
+  else{
+    if(computermove==='Bat'){
+      return 'User Won.';
+    }
+    else if(computermove==='Ball'){
+    return 'Computer Won.';
+    }
+    else{
+    return 'Match Tie.';
+    }
+  }
+}
+
+function showresult(usermove,computermove,result){
+alert(`You have chosen ${usermove}. Computer choice is ${computermove} and ${result}`);
+}
+
 </script>
 </body>
 </html>

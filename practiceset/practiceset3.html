@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function OddEven(num){
+      if(num/2 == 0){
+        return 'even';
+      }
+      else{
+        return 'odd';
+      }
+    }
+    console.log(OddEven(7));
+
+    function GreatestofTwo(num1,num2){
+      if(num1>num2){
+        return num1;
+      }
+      else if(num2>num1){
+        return num2;
+      }
+      else{
+        return 'both are equal numbers';
+      }
+    }
+    console.log(GreatestofTwo(5,3));
+
+    function CtoF(celcius){
+      let fahrenheit = ((9/5)*celcius)+32;
+      return fahrenheit;
+    }
+    console.log(CtoF(37))
+  </script>
+</body>
+</html>
