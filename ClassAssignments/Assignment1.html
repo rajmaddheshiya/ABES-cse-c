@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Info Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Select a Category</h1>
+  <div class="container">
+    <div class="card" onclick="goToDetail('cars')">
+      <h2>Cars</h2>
+      <p>Click to know more</p>
+    </div>
+    <div class="card" onclick="goToDetail('phones')">
+      <h2>Phones</h2>
+      <p>Click to know more</p>
+    </div>
+    <div class="card" onclick="goToDetail('games')">
+      <h2>Games</h2>
+      <p>Click to know more</p>
+    </div>
+  </div>
+
+  <script>
+    function goToDetail(category) {
+      window.location.href = "detail.html?category=" + category;
+    }
+  </script>
+</body>
+</html>

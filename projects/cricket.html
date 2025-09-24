@@ -12,18 +12,7 @@
   <h1> Bat Ball Stump Game</h1>
 
   <button onclick="
-  let randomNumber = Math.random()*3;
-  let computerchoice;
-  if(randomNumber>0 && randomNumber<=1){
-    computerchoice='Bat';
-  }
-  else if(randomNumber>1 && randomNumber<=2){
-     computerchoice='Ball';
-  }
-  else{
-     computerchoice='Stump';
-  }
-
+  generatecomputerchoice();
     var resultMsg;
   if(computerchoice==='Ball'){
     resultMsg='User won.';
@@ -34,25 +23,11 @@
   else {
   resultMsg='Match tie.';
   }
-  
   alert( ` You have chosen Bat. Computer choice is ${computerchoice} and ${resultMsg} `);
-  " 
-  >Bat</button>
+  " >Bat</button>
 
   <button onclick="
-  let randomNumber=Math.random()*3;
-  let computerchoice;
-  if(randomNumber>0 && randomNumber<=1){
-    computerchoice='Bat';
-  }
-  else if(randomNumber>1 && randomNumber<=2){
-    computerchoice='Ball';
-  }
-  else{
-    computerchoice='Stump';
-  }
-
-  let resultMsg;
+  generatecomputerchoice();
   if(computerchoice==='Bat'){
     resultMsg='Computer Won.';
   }
@@ -64,23 +39,10 @@
   }
 
   alert(`You have chosen Ball. Computer choice is ${computerchoice} and ${resultMsg}`);
-  
-  " >Ball</button>
+   " >Ball</button>
 
   <button onclick="
-  let randomNumber=Math.random()*3;
-  let computerchoice;
-  if(randomNumber>0 && randomNumber<=1){
-  computerchoice='Bat';
-  }
-  else if(randomNumber>1 && randomNumber<=2){
-    computerchoice='Ball';
-  }
-  else{
-    computerchoice='Stump';
-  }
-
-  let resultMsg;
+  generatecomputerchoice();
   if(computerchoice==='Bat'){
     resultMsg='User Won.';
   }
@@ -91,8 +53,24 @@
     resultMsg='Match Ties.';
   }
   alert( `You have chosen Stump. Computer choice is ${computerchoice} and ${resultMsg}`);
+">Stump</button>
 
-  ">Stump</button>
+<!-- here the generatecomputerchoice is converted into a function  -->
+<script>
+  let computerchoice;
+  function generatecomputerchoice(){
+ let randomNumber = Math.random()*3;
+  if(randomNumber>0 && randomNumber<=1){
+    computerchoice='Bat';
+  }
+  else if(randomNumber>1 && randomNumber<=2){
+     computerchoice='Ball';
+  }
+  else{
+     computerchoice='Stump';
+  }
+  }
+</script>
 </body>
 </html>
 
