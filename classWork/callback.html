@@ -3,17 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Call back Hell</title>
 </head>
 <body>
   <script>
-    function sum(a,b){
-      console.log(a+b);
+    // function sum(a,b){
+    //   console.log(a+b);
+    // }
+    // function cal(a,b,sumcallback){
+    //   sumcallback(a,b);
+    // }
+    // cal(2,3,sum);
+    function getData(DataId){
+       setTimeout(() => {
+         console.log("Data",DataId);
+         if(getData){
+          getData();
+         }
+       }, 2000);
     }
-    function cal(a,b,sumcallback){
-      sumcallback(a,b);
-    }
-    cal(2,3,sum);
+getData(1,()=>{
+  getData(2,()=>{
+    getData(3,()=>{
+      getData(4);
+    })
+  })
+})
+
+    // getData(1);
+    // getData(3);
+    // getData(5);
+    // getData(7);
     
   </script>
 </body>
