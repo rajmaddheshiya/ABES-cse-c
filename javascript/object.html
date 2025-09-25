@@ -7,15 +7,25 @@
 </head>
 <body>
   <script>
-    let product = {
+    // let product = {
+    //   company:'Mango',
+    //   price:861,
+    //   itemname:'T-shirt',
+    // };
+    // console.log(product);
+    // console.log(product.itemname)
+    // product.company='Banana'
+    // console.log(product)
+
+     let product = {
       company:'Mango',
       price:861,
       itemname:'T-shirt',
+      displayPrice: function() {
+        console.log(`Price of the product is ₹${this.price}`);
+      }
     };
-    console.log(product);
-    console.log(product.itemname)
-    product.company='Banana'
-    console.log(product)
+    product.displayPrice();
   </script>
 </body>
 </html>

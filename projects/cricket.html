@@ -19,7 +19,7 @@
 
 
   <button onclick="
-    computerchoice=generatecomputerchoice();
+    computerchoice = generatecomputerchoice();
     resultMsg = getresult('Ball',computerchoice);
     showresult('Ball',computerchoice,resultMsg);
    " >Ball</button>
@@ -28,12 +28,31 @@
   <button onclick="
     computerchoice=generatecomputerchoice();
     resultMsg = getresult('Stump',computerchoice);
-    showresult('stump',computerchoice,resultMsg);
+    showresult('Stump',computerchoice,resultMsg);
 ">Stump</button>
+<button onclick="localStorage.clear()
+resetscore(scoreStr)
+">Reset</button>
 
 
 <!-- here the generatecomputerchoice is converted into a function  -->
+
 <script>
+  let score;
+let scoreStr = localStorage.getItem('score');
+  resetscore(scoreStr);
+function resetscore(scoreStr) {
+    score = JSON.parse(scoreStr) || {
+      win:0,
+      lost:0,
+      tie:0,
+   };
+  }
+    score.displayscore=function(){
+      return `No of matches Won:${score.win}, Lost:${score.lost}, Tie:${score.tie}`;
+    }
+
+
   function generatecomputerchoice(){
  let randomNumber = Math.random()*3;
   if(randomNumber>0 && randomNumber<=1){
@@ -51,42 +70,58 @@
 function getresult(usermove,computermove){
   if(usermove==='Bat'){
     if(computermove === 'Ball'){
+      score.win++;
     return 'User won.';
     }
     else if(computermove === 'Stump'){
-    return 'Computer won.';
+       score.lost++;
+      return 'Computer won.';
     }
     else {
+      score.tie++;
     return 'Match tie.';
     }
   }
   else if(usermove==='Ball'){
     if(computermove==='Bat'){
+      score.lost++;
       return 'Computer Won.';
     }
     else if(computermove==='Ball'){
+      score.tie++;
       return 'Match tie.';
     }
     else{
+      score.win++;
       return 'User Won.';
     }
   }
 
   else{
     if(computermove==='Bat'){
+      score.win++;
       return 'User Won.';
     }
     else if(computermove==='Ball'){
+      score.lost++;
     return 'Computer Won.';
     }
     else{
+      score.tie++;
     return 'Match Tie.';
     }
   }
 }
 
 function showresult(usermove,computermove,result){
-alert(`You have chosen ${usermove}. Computer choice is ${computermove} and ${result}`);
+  // console.log(score);
+localStorage.setItem('score',JSON.stringify(score));
+
+alert(`You have chosen ${usermove}. Computer choice is ${computermove} 
+
+${result}
+
+${score.displayscore()}`);
 }
 
 </script>
