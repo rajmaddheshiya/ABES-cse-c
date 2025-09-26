@@ -14,27 +14,37 @@
     //   sumcallback(a,b);
     // }
     // cal(2,3,sum);
-    function getData(DataId){
-       setTimeout(() => {
-         console.log("Data",DataId);
-         if(getData){
-          getData();
-         }
-       }, 2000);
-    }
-getData(1,()=>{
-  getData(2,()=>{
-    getData(3,()=>{
-      getData(4);
-    })
-  })
-})
+//     function getData(DataId){
+//        setTimeout(() => {
+//          console.log("Data",DataId);
+//          if(getData){
+//           getData();
+//          }
+//        }, 2000);
+//     }
+// getData(1,()=>{
+//   getData(2,()=>{
+//     getData(3,()=>{
+//       getData(4);
+//     })
+//   })
+// })
 
     // getData(1);
     // getData(3);
     // getData(5);
     // getData(7);
     
+    function getData(DataId,callback){
+       setTimeout(() => {
+         console.log("Data",DataId);
+         if(callback){
+          callback();
+         }
+       }, 2000);
+    }
+
+
   </script>
 </body>
 </html>
