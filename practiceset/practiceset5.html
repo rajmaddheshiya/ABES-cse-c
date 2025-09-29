@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Practice set 6</title>
+  <style>
+    #my-button{
+      height: 50px;
+      width: 50px;
+      padding: 5px;
+      font-size: 25px;
+      border-radius: 10px;
+      border: none;
+      color: white;
+    }
+
+    .js-odd {
+      background-color: rgb(216, 84, 32);
+    }
+
+
+    .js-even {
+      background-color: rgb(4, 110, 146);
+    }
+  </style>
+</head>
+<body>
+<h1 class="greet"></h1>
+
+
+<button id="my-button" onclick="buttonPressed();"></button>
+  <script>
+   
+   let noOfTimesButtonPressed=localStorage.getItem('noOfTimesButtonPressed')||0;
+   function buttonPressed(){
+    noOfTimesButtonPressed++;
+    localStorage.setItem('noOfTimesButtonPressed',noOfTimesButtonPressed)
+    updateButton();
+   }
+
+
+    function updateButton(){
+     let button=document.querySelector('#my-button'); 
+    
+    if(noOfTimesButtonPressed%2===0){
+      button.classList.remove('js-odd');
+      button.classList.add('js-even');
+    }
+    else{
+      button.classList.remove('js-even');
+      button.classList.add('js-odd');
+    }
+    button.innerText=noOfTimesButtonPressed;
+    }
+    updateButton();
+    function greeting(name='Guest'){
+    let mydate=new Date();
+    console.log(mydate);
+
+   if(mydate.getHours()<=12){
+    document.querySelector('.greet').innerHTML=`Good Morning!! ${name}`;
+   }
+   else if(mydate.getHour()<=18  && mydate.getHour()>12){
+    document.querySelector(".greet").innerText=`Good Afternoon!! ${name}`;
+   }
+   else{
+    document.querySelector('.greet').innerText=`Good Evening!! ${name}`;
+   }
+  }
+  greeting('Raj');
+
+  </script>
+</body>
+</html>
