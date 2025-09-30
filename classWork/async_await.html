@@ -4,11 +4,19 @@
   <title>async await</title>
 </head>
 <body>
+<!-- callback -->
+<!-- function passed as an argument to another function, and then invoked later inside that function. -->
+<!-- async? -->
+ <!-- It makes the function always return a Promise, no matter what you return inside. -->
+<!-- await -->
+
+
   <script>
 
   async function r(){
        let promise=new Promise((resolve,reject)=>{
-      setTimeout(()=>resolve("done"),2000)
+      setTimeout(()=>
+      resolve("done"),2000)
        });
        let result = await promise;
        alert(result);
