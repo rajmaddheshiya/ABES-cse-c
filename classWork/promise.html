@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Promise</title>
+</head>
+<body>
+  <script>
+    const mypromise=new Promise((resolve,reject)=>{
+        const password = "raj677090@gmail.com";
+        if(password.length>8){
+          resolve("password length is ok");
+        }
+        else{
+          reject("Invalid data");
+        }
+    })
+    mypromise.then((msg)=>{
+      console.log(msg);
+    })
+    mypromise.catch((err)=>{
+      console.log(err);
+    })
+  </script>
+</body>
+</html>
