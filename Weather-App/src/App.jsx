@@ -17,5 +17,6 @@ function App() {
         <Weather key={i} country={b.name} temperature={b.main.temp} />))
       }
   )
+  
 }
 export default App;
