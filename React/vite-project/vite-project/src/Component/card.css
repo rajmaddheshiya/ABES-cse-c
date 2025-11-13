@@ -1,0 +1,17 @@
+#r {
+    border: 1px dotted rgb(1, 123, 117);
+    width: 300px;
+    height: 400px;
+    margin-bottom: 5px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+button{
+    height: 100px;
+    width: 270px;
+    padding: 4px;
+    background-color: teal;
+}

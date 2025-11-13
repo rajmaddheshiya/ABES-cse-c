@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>For Each Loop</title>
+</head>
+<body>
+  <script>
+    // let foods=['bread','rice','meat','pizza'];
+
+    // foods.forEach(function(food){
+    //   console.log(food);
+    // })
+
+    // let arr=[2,3,4,5,8];
+    // arr.forEach(num=>{
+    //   console.log(num);
+    // })
+
+    let arr=[2,3,4,5,8];
+    // for(let i=0;i<arr.length;i++){
+    //   console.log(arr[i]);
+    // }
+    function search(arr,num){
+      for(let i=0;i<arr.length;i++){
+        if(arr[i]==num){
+         console.log(`element found at:${i}`);
+         return;
+        }
+      }
+      console.log('element was not found');
+    }
+    
+    search(arr,1);
+
+  </script>
+</body>
+</html>

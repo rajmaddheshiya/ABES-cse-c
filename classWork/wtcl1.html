@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="Number" id="inputBox1" placeholder="Enter num1...">
+   <input type="Number" id="inputBox2" placeholder="Enter num2...">
+   <button id=button onclick="findsum()">Submit</button>
+  
+   <script>
+    function findsum(){
+      let a=parseInt(document.getElementById("inputBox1").value);
+      let b =parseInt(document.getElementById("inputBox2").value);
+      let sum=0 ;
+      sum = a+b;
+      console.log(`Sum is: ${a+b}`);
+    }
+   </script>
+</body>
+</html>

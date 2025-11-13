@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Set Interval</title>
+</head>
+<body>
+  <script>
+    let alarm = ()=>
+      console.log(`subah ho gai uth jao.${new Date() }`);
+
+    let intervalId=setInterval(alarm,1000);
+    setTimeout(()=>clearTimeout(intervalId),3000);
+
+  </script>
+</body>
+</html>

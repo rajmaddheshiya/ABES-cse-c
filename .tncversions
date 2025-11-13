@@ -1,0 +1,337 @@
+{
+  ".ignoretnc": {
+    "hash": "ad748ac5d7364e40ddf7d1ae47dbf5f4a0e6e3adaf38db3019f7c250f0e8803b",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711790/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/.ignoretnc",
+    "version": 1
+  },
+  ".tnc/.tncmeta.json": {
+    "hash": "faabbf91f3067700f1656750f3c5d2e351bf35651ed108074eaed8a94d96a190",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711791/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/.tncmeta.json",
+    "version": 1
+  },
+  ".tnc/.tncpush.json": {
+    "hash": "b4f12d1e6bb8919b1c3dd08e24ef9e1091e72306e048783f4f22e4552ecdda86",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711793/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/.tncpush.json",
+    "version": 1
+  },
+  "Arrays/index.html": {
+    "hash": "aa102c41a06f63c4deb74c89eb254d948063c3d03c27b84570ffd4a9a1275c1d",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711795/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/index.html",
+    "version": 1
+  },
+  "Arrays/loops.html": {
+    "hash": "cfe3291f4623aa19e1639670d032b1d4984dbf43553b095952a2dbfbdfbcb6d8",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711797/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/loops.html",
+    "version": 1
+  },
+  "ClassAssignments/Assignment1.html": {
+    "hash": "8428e2f0260d8082891eba6fc58e23b57d78faf66682f5baa11d689182ce63ed",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711799/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/Assignment1.html",
+    "version": 1
+  },
+  "ClassAssignments/Assignment2.html": {
+    "hash": "7929c13ee2378f838b82606dc23c937f19be208a3d8d860ce5e96132a03671ef",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711800/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/Assignment2.html",
+    "version": 1
+  },
+  "ClassAssignments/Assignment3.html": {
+    "hash": "ad23b724d81ce1b2d529cd2de38201781be924c7b0665a9ba6a202eb9619a069",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711802/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/Assignment3.html",
+    "version": 1
+  },
+  "ClassAssignments/car1.jpeg": {
+    "hash": "b487f0266602dd5f90445a1e42438727e9834a5a0336a23514810218f2a20166",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711806/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/car1.jpeg.jpg",
+    "version": 1
+  },
+  "ClassAssignments/Class.html": {
+    "hash": "fb753a4be8e7b5c83586fbcb83fe91a56c98bdab3a8360604d13827b4f43ad81",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711808/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/Class.html",
+    "version": 1
+  },
+  "ClassAssignments/detail.html": {
+    "hash": "d5bfe2fc7c4c0a92b54c640be87332709d2d1495ccdb1a52ef12f17066dd96f1",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711810/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/detail.html",
+    "version": 1
+  },
+  "ClassAssignments/download.jpg": {
+    "hash": "b62917710477ff293100b9fc5dde1f12bbcabbbcec48f5f3786d72e53b5b1d1b",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711811/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/download.jpg.jpg",
+    "version": 1
+  },
+  "ClassAssignments/script.js": {
+    "hash": "a6fb801b2cff9adc4c4773195b0973d068e25d448a20004c82cf923b15443d70",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711813/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/script.js",
+    "version": 1
+  },
+  "ClassAssignments/style.css": {
+    "hash": "6429b646e74567f439625de381610d1791080f99131265cffb07915d85d01dfa",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711815/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/style.css",
+    "version": 1
+  },
+  "classWork/async_await.html": {
+    "hash": "74ff6f4a8a73b399863185f33a4883071acdf511a2185f9eddff5c89284ec0db",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711816/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/async_await.html",
+    "version": 1
+  },
+  "classWork/callback.html": {
+    "hash": "afbcbe04fe48d5141eec01274ddda3ecc244061360d47f86584cb6a23321c620",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711818/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/callback.html",
+    "version": 1
+  },
+  "classWork/destructuring.html": {
+    "hash": "8f86c0b50f5d463953362879c38efe344b989633711507611c8267b0d3a25c14",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711820/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/destructuring.html",
+    "version": 1
+  },
+  "classWork/promise.html": {
+    "hash": "31ff63fe42f28dabe9113dbfc1d15c7077d6894a235ef7b7b5876e3e13e97caa",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711822/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/promise.html",
+    "version": 1
+  },
+  "classWork/spread.html": {
+    "hash": "a3ab38a8d784652d1942e992d9ba66c578d4b2735d73388e32d42feb6fc6ee62",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711824/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/spread.html",
+    "version": 1
+  },
+  "classWork/SyncAsync.html": {
+    "hash": "941bec6b5546f919f3b07a3a8925451b7db120402e18a900c7cb3b39c8ee3c0b",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711825/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/SyncAsync.html",
+    "version": 1
+  },
+  "javascript/advanceFunction.html": {
+    "hash": "6479bc2f4f05f104279ac336f4b05196a812a699fb4706828e2e2e9e642aea5c",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711827/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/advanceFunction.html",
+    "version": 1
+  },
+  "javascript/ArrayMethods.html": {
+    "hash": "50cbc56f8fbb733c8735639ca7d77ada8daeec6ee7615432e6d31c6ce5acb0bb",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711829/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/ArrayMethods.html",
+    "version": 1
+  },
+  "javascript/Event_listener.html": {
+    "hash": "d49a3f71cb4ec9062a25aeced89ae5437b188ed4859712ff72e1422a89e78ee4",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711830/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/Event_listener.html",
+    "version": 1
+  },
+  "javascript/for_Each_loop.html": {
+    "hash": "a9e53fc1e1c6c1170aff2002787618a1ca1f7fae27d3ddc5b0b4d163a3c5074a",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711832/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/for_Each_loop.html",
+    "version": 1
+  },
+  "javascript/functions.html": {
+    "hash": "c2a3dde2a759f7dd123326cd46381941fe516ccfc150db570165e10d38c5e3ed",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711834/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/functions.html",
+    "version": 1
+  },
+  "javascript/if alternative.html": {
+    "hash": "86c648c21fa8b350cb58a77cd06a3aab02aca6dfeddb8883d3ed9160bf6eb6f0",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711836/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/if%20alternative.html",
+    "version": 1
+  },
+  "javascript/if_else.html": {
+    "hash": "91620d969dc55c76fae5a5d703d54c81df8112d8d10f0d26e29dab5ed8a14bc3",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711838/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/if_else.html",
+    "version": 1
+  },
+  "javascript/index.html": {
+    "hash": "c562907004312f02e481877ef689160008cf4910813fa93532c1a8624716b095",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711840/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/index.html",
+    "version": 1
+  },
+  "javascript/index.js": {
+    "hash": "aaa7e7fb1bd47832b686729189192e0789e7df0e1290f75a5507b64e6dc657fb",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711841/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/index.js",
+    "version": 1
+  },
+  "javascript/object.html": {
+    "hash": "d93550f2c00af1fc032e8d8a9052e2535eaa600ade46b4c6e2f8b20f168b8e07",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711843/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/object.html",
+    "version": 1
+  },
+  "javascript/setTimeout.html": {
+    "hash": "3a9236572d4d9711fd8c20fc99ce142f852eb0e299f34f051104bab3babb1b4c",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711845/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/setTimeout.html",
+    "version": 1
+  },
+  "javascript/Set_Interval.html": {
+    "hash": "6b72d78182e1be19e01ba91b955c015837267b4c5558807eddce4973ca00d531",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711846/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/Set_Interval.html",
+    "version": 1
+  },
+  "javascript/truthy and falsy.html": {
+    "hash": "785580b14991c4363754b2703cf037b1e8d422cd5bbec67913c986e4b4e70d33",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711848/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/truthy%20and%20falsy.html",
+    "version": 1
+  },
+  "json/date.html": {
+    "hash": "79a78d4331895cb617e578cb573e6752973b8a48a59f868e39f3debf98d99c4e",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711850/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/date.html",
+    "version": 1
+  },
+  "json/json.html": {
+    "hash": "cdf8140f35d3a3ee7b50591d2c1f51cf374c46869723520c0ad7cdd13df2a7aa",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711851/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/json.html",
+    "version": 1
+  },
+  "practiceset/MyntraBagExercise.html": {
+    "hash": "530bdae845adebd1f8b599c26efaea54a3c4effd2d8e59cba61877d652b46a4f",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711853/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/MyntraBagExercise.html",
+    "version": 1
+  },
+  "practiceset/practiceset1.html": {
+    "hash": "d433ef8e151ad33a3d907db01c8e1a47b2af13013da132e9f928d634a3f7b934",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711855/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/practiceset1.html",
+    "version": 1
+  },
+  "practiceset/practiceset2.html": {
+    "hash": "8e00ba38c0a31034e35cae579244f1f81401cd4149deb4868c61e10df713c587",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711857/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/practiceset2.html",
+    "version": 1
+  },
+  "practiceset/practiceset3.html": {
+    "hash": "115fb836fe94b9fe8c71c475eba039093a01f445a22ed215a9653714f7712da9",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711858/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/practiceset3.html",
+    "version": 1
+  },
+  "practiceset/practiceset4.html": {
+    "hash": "502ec71992bb67f4d1e46016979dc13487d4505312e6cc1a04443eb783897ff3",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711860/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/practiceset4.html",
+    "version": 1
+  },
+  "practiceset/practiceset5.html": {
+    "hash": "a3449abc68713cc057bda406e5f88c96f42b34187c95676fe3cbd848d26ffc66",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711862/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/practiceset5.html",
+    "version": 1
+  },
+  "practiceset/practiceSet6.html": {
+    "hash": "4cad13920009caee819dfcb8464bc0e1a54042775dcbc60ecfdba48d73d9e332",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711864/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/practiceSet6.html",
+    "version": 1
+  },
+  "practiceset/practiceset7.html": {
+    "hash": "3890e1de9a31643ed0e44c2367085b05f23311024111104d6652d33d6a33101d",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711865/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/practiceset7.html",
+    "version": 1
+  },
+  "projects/Calculator/calculator.html": {
+    "hash": "d9cc004ff5ff3bc21ce212e28f7f586e4f8dbf5af597198939be45c6a2d457ae",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711867/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/calculator.html",
+    "version": 1
+  },
+  "projects/cricket project/balls.png": {
+    "hash": "3d3dfe05d5190193f4c2324b070e0eb4df1eb05e58e3df538f691ab628d35932",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711869/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/balls.png.png",
+    "version": 1
+  },
+  "projects/cricket project/bat.webp": {
+    "hash": "4756f9456d295e309fb0cda2cd92e8049b22739c9f9e5b48b71a53c0e8f13328",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711871/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/bat.webp.webp",
+    "version": 1
+  },
+  "projects/cricket project/cricket.css": {
+    "hash": "60373a50c702f438c6b8405ed892c89091c8055f13327fc2e64e9d79731eb045",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711873/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/cricket.css",
+    "version": 1
+  },
+  "projects/cricket project/cricket.html": {
+    "hash": "7eab5914f78607f892aea7abce83caa11f03f3c6ed32100c471ca9e62f9910e4",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711874/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/cricket.html",
+    "version": 1
+  },
+  "projects/cricket project/stump2.png": {
+    "hash": "87705d15e3e14cd42e86ef4b5c1b6e5dd0550f4e40a06b1274a794467ab8e4ce",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711878/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/stump2.png.png",
+    "version": 1
+  },
+  "projects/Myntra clone/images/1.jpg": {
+    "hash": "e877363ffd6a6516feb00f2d03be6659c94fbd5760f2ca973d70e02611d4e20c",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711880/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/1.jpg.webp",
+    "version": 1
+  },
+  "projects/Myntra clone/images/2.jpg": {
+    "hash": "a81c2586bb2bd6f9cb50634131bc33e15aa3fa5972fa1a29292075ea180dd4b4",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711882/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/2.jpg.webp",
+    "version": 1
+  },
+  "projects/Myntra clone/images/3.jpg": {
+    "hash": "7fcf5d2fab451eb63ec160196a8a1be578a8eb878dd380df6f9e49df1f6367be",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711886/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/3.jpg.jpg",
+    "version": 1
+  },
+  "projects/Myntra clone/images/4.jpg": {
+    "hash": "bea01f5a7a8b6dea0d30dce29e0e6d87145c0f5b663bf7ade14d3f1b524db7ea",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711888/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/4.jpg.webp",
+    "version": 1
+  },
+  "projects/Myntra clone/images/5.jpg": {
+    "hash": "09ee5fd2cfaf7d021e51a8c5cbd1270706e3a9304c1a9dc0ec84102765bd7d16",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711891/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/5.jpg.webp",
+    "version": 1
+  },
+  "projects/Myntra clone/images/6.jpg": {
+    "hash": "79515f66df84674f10b2b39adb664c737def685edc0f825cd5a938ccfe111071",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711892/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/6.jpg.webp",
+    "version": 1
+  },
+  "projects/Myntra clone/images/7.jpg": {
+    "hash": "7393785feebca2f7e0e5b3b2a9339324719542476bb1612a2c773e6a590295e3",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711894/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/7.jpg.webp",
+    "version": 1
+  },
+  "projects/Myntra clone/images/8.jpg": {
+    "hash": "6357a9270fb3055b6baf3f96c822f0cea192dcb59c96dd175d6f56707555c0f3",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711897/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/8.jpg.webp",
+    "version": 1
+  },
+  "projects/Myntra clone/images/myntra_logo.webp": {
+    "hash": "98ed67505870e15f5b71167c5900d1eefb4d5724c23cce3f01fb4b53d99d7fe9",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711899/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/myntra_logo.webp.webp",
+    "version": 1
+  },
+  "projects/Myntra clone/index.css": {
+    "hash": "4b842ba9b489d80fa2e9f52bed6838de8fc5257a5fc1793757468ea24b85ee0d",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711900/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/index.css",
+    "version": 1
+  },
+  "projects/Myntra clone/index.html": {
+    "hash": "dccc80ff818c6f4788b8481572bcbe4a836eb3970dc324dbab719c7afdb42e39",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711902/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/index.html",
+    "version": 1
+  },
+  "projects/Myntra clone/index.js": {
+    "hash": "ac50e89bf4633565b44ee0e3b41c27bf2a3da9a28c111bf75f012f15c03b7780",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711904/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/index.js",
+    "version": 1
+  },
+  "projects/Myntra clone/items.js": {
+    "hash": "086d10bfcec6e134664fdbdfcc0bda4e01e2aacca51aae1f6180364e49490eac",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711906/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/items.js",
+    "version": 1
+  },
+  "projects/resetbutton.png": {
+    "hash": "422e3700cf97cdf071c12e1b1192b7bd720491d155c0f10177c786b38a17074b",
+    "url": "https://res.cloudinary.com/dtxwsygoi/image/upload/v1761711908/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/resetbutton.png.png",
+    "version": 1
+  },
+  "projects/Todo list/todo.css": {
+    "hash": "19d0a7c4c0bbb7031b7e0b618d5d0aac7f1f996dee6329bc86e5e76a68fd485f",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711910/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/todo.css",
+    "version": 1
+  },
+  "projects/Todo list/todo.html": {
+    "hash": "844925fceb37e31c625548799a0439030098c0a58d17ec3d9386e909e61ff434",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711912/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/todo.html",
+    "version": 1
+  },
+  "projects/Todo list/todo.js": {
+    "hash": "a72a6466c83751a64b306638f16e24504e6a9baae3d03edfd97d0ccf4575bec7",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711913/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/todo.js",
+    "version": 1
+  },
+  "variables/index.html": {
+    "hash": "ea89da5c4aada79f1c0c822dbe76119897e4fea12f002d4deab5352f5ee5e78a",
+    "url": "https://res.cloudinary.com/dtxwsygoi/raw/upload/v1761711915/tnc_uploads/45b6cf6923f63dcdfc5ae0a0032a40a1/index.html",
+    "version": 1
+  }
+}
